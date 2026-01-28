@@ -197,7 +197,7 @@ For issues, questions, or suggestions:
 - Check the Troubleshooting section above
 - Review existing GitHub issues
 - Create a new issue with detailed information
-
+- Email: nobody-osdev@proton.me **With detailed information!**)
 ---
 
 ## Disclaimer
@@ -207,3 +207,4 @@ This toolkit is designed for authorized security testing only. Unauthorized acce
 ---
 
 **Happy Hunting! 🎯**
+
