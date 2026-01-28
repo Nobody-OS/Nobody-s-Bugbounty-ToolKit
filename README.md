@@ -10,12 +10,13 @@ A comprehensive reconnaissance and exploitation framework for bug bounty hunters
 
 ## Installation Methods
 
-### Method 1: One-Click Windows Installer (Recommended for Windows Users)
+### Method 1: Quick Setup with Script
 
-Simply double-click `install.bat`:
+Run the provided installation script:
 
 ```bash
-install.bat
+chmod +x install.sh
+./install.sh
 ```
 
 This will:
@@ -26,7 +27,8 @@ This will:
 
 Then launch with:
 ```bash
-run.bat
+source venv/bin/activate
+python BugbountyToolkit.py
 ```
 
 ### Method 2: Manual Installation with Python
@@ -51,13 +53,6 @@ python -m venv venv
 ```
 
 3. **Activate the virtual environment:**
-
-**Windows:**
-```bash
-venv\Scripts\activate.bat
-```
-
-**macOS/Linux:**
 ```bash
 source venv/bin/activate
 ```
@@ -81,10 +76,7 @@ If you have Git installed:
 git clone https://github.com/NobodyOS/BugbountyToolkit.git
 cd BugbountyToolkit
 
-# On Windows
-install.bat
-
-# On macOS/Linux
+# Setup and run
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -97,18 +89,13 @@ python BugbountyToolkit.py
 
 - **Reconnaissance Tools:** Subdomain enumeration, port scanning, service detection
 - **Exploitation Framework:** Automated vulnerability scanning
-- **Multi-platform Support:** Windows, macOS, Linux
+- **Comprehensive Toolset:** Linux-optimized security toolkit
 - **Tool Integration:** Unified interface for multiple security tools
 
 ---
 
 ## Quick Start
 
-### Windows Users:
-1. Double-click `install.bat`
-2. Double-click `run.bat`
-
-### macOS/Linux Users:
 ```bash
 python -m venv venv
 source venv/bin/activate
@@ -124,8 +111,7 @@ python BugbountyToolkit.py
 BugbountyToolkit/
 ├── BugbountyToolkit.py      # Main application
 ├── Setup.py                  # Automated setup script
-├── install.bat               # Windows one-click installer
-├── run.bat                   # Quick launcher (Windows)
+├── install.sh                # Linux setup script
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
 └── .gitignore               # Git ignore rules
@@ -138,24 +124,26 @@ BugbountyToolkit/
 - **Python:** 3.9 or higher
 - **RAM:** 4GB minimum
 - **Disk Space:** 2GB for tools and data
-- **OS:** Windows 7+, macOS 10.12+, or modern Linux distro
+- **OS:** Modern Linux distribution (Ubuntu 18.04+, Debian 10+, CentOS 8+, etc.)
 
 ---
 
 ## Troubleshooting
 
 ### Python not found
-- Install Python from https://www.python.org/
-- Ensure "Add Python to PATH" is checked during installation
-- Restart your computer after installation
+```bash
+# Install Python 3
+sudo apt-get install python3 python3-pip python3-venv
+```
 
 ### Virtual environment won't activate
 ```bash
 # Try using Python 3 explicitly
 python3 -m venv venv
+source venv/bin/activate
 ```
 
-### Permission denied (macOS/Linux)
+### Permission denied
 ```bash
 chmod +x install.sh
 ./install.sh
@@ -176,12 +164,6 @@ pip install -r requirements.txt
 
 After installation, run:
 
-**Windows:**
-```bash
-run.bat
-```
-
-**macOS/Linux:**
 ```bash
 source venv/bin/activate
 python BugbountyToolkit.py
