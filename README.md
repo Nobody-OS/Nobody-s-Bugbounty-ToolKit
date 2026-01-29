@@ -48,8 +48,8 @@ Each edition includes:
 
 Choose your platform folder and follow the included README:
 
-- **Windows:** See [Nobody-s-Bugbounty-ToolKit/Linux/README.md](https://github.com/Nobody-OS/Nobody-s-Bugbounty-ToolKit/blob/main/Linux/README.md)
-- **Linux:** See [Nobody-s-Bugbounty-ToolKit/Windows/README.md](https://github.com/Nobody-OS/Nobody-s-Bugbounty-ToolKit/blob/main/Windows/README.md)
+- **Windows:** See [Nobody-s-Bugbounty-ToolKit/Windows/README.md](https://github.com/Nobody-OS/Nobody-s-Bugbounty-ToolKit/blob/main/Windows/README.md)
+- **Linux:** See [Nobody-s-Bugbounty-ToolKit/Linux/README.md](https://github.com/Nobody-OS/Nobody-s-Bugbounty-ToolKit/blob/main/Linux/README.md)
 - **macOS:** See [Nobody-s-Bugbounty-ToolKit/MacOS/README.md](https://github.com/Nobody-OS/Nobody-s-Bugbounty-ToolKit/blob/main/MacOS/README.md)
 
 ---
